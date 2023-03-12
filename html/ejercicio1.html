@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>#header h1 { display:inline; }</style>
+    <title>Ejemplo Formulario # 1</title>
+</head>
+<body>
+    <div id="header">
+    <h1>Zoo Keeper Application Form</h1> <br>
+    <em>Please complete the form. Mandatory fields are market with a <FONT COLOR="red">*</FONT> <br> <br></em>
+    </div>
+    <form>
+        <fieldset>
+            <legend><strong>CONTACT DETAILS</strong></legend>
+            <label>Name <font color="red" >*ㅤㅤㅤㅤ</font></label> <input type="text" size="30" required pattern="[a-zA-Z+ñÑ ]*" maxlength="60"> <br> <br>
+            <label>Telephoneㅤㅤㅤ</label> <input type="text" size="30" placeholder="+dd-ddd-ddddddddd"> <br> <br>
+            <label>Email <font color="red" >*ㅤㅤㅤㅤ</font></label> <input type="text" size="30" required maxlength="30">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><strong>PERSONAL INFORMATION</strong></legend>
+            <label><font color="red" >*</font>Ageㅤㅤㅤㅤㅤ</label> <input style="width: 239px;" type="number" size="30" required min="18"> <br> <br>
+            <label>Gender&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label> 
+            <select>
+                <option value="F">Femaleㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ&nbsp;</option>
+                <option value="M">Male</option>
+            </select> <br> <br>
+            <table>
+                <tr>
+                    <td align="left">When did you <br> first know you <br> wanted to be <br> a zoo-keeper? <br> <br> <br></td>
+                    <td>ㅤ<textarea name="Idontknow" id="" cols="31" rows="7"></textarea></td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><strong>PICK YOUR FAVORITE ANIMALS</strong></legend>
+            <input type="checkbox">Zebraㅤㅤㅤㅤ<input type="checkbox">Catㅤㅤㅤㅤ<input type="checkbox">Anacondaㅤㅤㅤㅤ<input type="checkbox">Human <br> <br>
+    
+            <input type="checkbox">Elephantㅤㅤ&nbsp;&nbsp;&nbsp;<input type="checkbox">Wildebeestㅤ<input type="checkbox">Pigeon&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox">Crab
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit Application" style="height: 35px; width: 140px;">
+    </form>
+</body>
+</html>
